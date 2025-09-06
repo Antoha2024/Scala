@@ -1,24 +1,18 @@
-name: Test with Dockerized Spark
-
-on: push
-
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
 jobs:
-  build-and-test:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
-    container:
-      image: hseeberger/scala-sbt:12.0-oraclelinux7-openjdk11-sbt1.5.5
     steps:
-      - uses: actions/checkout@v2
-      - name: Build project
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v5
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: List files in the repository
         run: |
-          sbt clean compile assembly
-      - name: Run tests in Dockerized Spark environment
-        services:
-          spark:
-            image: bitnami/spark:3.3.0-debian-10-r33
-            ports:
-              - 8080:8080
-            options: --network host
-        run: |
-          docker pull bitnami/spark:3.3.0-debian-10-r33
-          docker run --rm -it --network host -v $(pwd)/target:/opt/spark/jars bitnami/spark:3.3.0-debian-10-r33 bash -c "/opt/spark/sbin/start-master.sh && sleep 10 && /opt/spark/bin/spark-submit --class org.mypackage.Main --master spark://localhost:7077 /opt/spark/jars/*jar"
+          ls ${{ github.workspace }}
+      - run: echo "🍏 This job's status is ${{ job.status }}."
