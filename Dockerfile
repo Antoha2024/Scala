@@ -1,4 +1,4 @@
-FROM hseeberger/scala-sbt:11.0.19_1.9.9_2.12.15
+FROM hseeberger/scala-sbt:11.0.19_1.9.9_3.1.1
 
 WORKDIR /app
 COPY . /app
