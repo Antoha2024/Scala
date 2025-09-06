@@ -1,0 +1,24 @@
+name: Test with Dockerized Spark
+
+on: push
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    container:
+      image: hseeberger/scala-sbt:12.0-oraclelinux7-openjdk11-sbt1.5.5
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build project
+        run: |
+          sbt clean compile assembly
+      - name: Run tests in Dockerized Spark environment
+        services:
+          spark:
+            image: bitnami/spark:3.3.0-debian-10-r33
+            ports:
+              - 8080:8080
+            options: --network host
+        run: |
+          docker pull bitnami/spark:3.3.0-debian-10-r33
+          docker run --rm -it --network host -v $(pwd)/target:/opt/spark/jars bitnami/spark:3.3.0-debian-10-r33 bash -c "/opt/spark/sbin/start-master.sh && sleep 10 && /opt/spark/bin/spark-submit --class org.mypackage.Main --master spark://localhost:7077 /opt/spark/jars/*jar"

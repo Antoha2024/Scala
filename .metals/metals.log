@@ -1,0 +1,36 @@
+2025.09.06 00:15:58 INFO  Started: Metals version 1.6.2 in folders 'C:\GitHub\Scala' for client Visual Studio Code 1.103.2.
+2025.09.06 00:15:59 INFO  time: initialize in 0.12s
+2025.09.06 00:16:09 INFO  no build target found for C:\GitHub\Scala\hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.06 00:16:12 INFO  Attempting to connect to the build server...
+2025.09.06 00:16:12 INFO  Running BSP server List(C:\Users\antoh\AppData\Local\Coursier\cache\arc\https\github.com\scala\scala3\releases\download\3.7.2\scala3-3.7.2-x86_64-pc-win32.zip\scala3-3.7.2-x86_64-pc-win32\libexec\scala-cli.exe, --cli-default-scala-version, 3.7.2, --repository, file:///C:/Users/antoh/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.7.2/scala3-3.7.2-x86_64-pc-win32.zip/scala3-3.7.2-x86_64-pc-win32/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, C:\GitHub\Scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\GitHub\Scala\.scala-build\ide-launcher-options.json, --envs-file, C:\GitHub\Scala\.scala-build\ide-envs.json, C:\GitHub\Scala\hello.scala)
+2025.09.06 00:16:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\Scala\.metals\bsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.06 00:16:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom
+2025.09.06 00:16:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom
+2025.09.06 00:16:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+сент. 06, 2025 12:16:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2025.09.06 00:16:33 INFO  no build target found for C:\GitHub\Scala\hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 06, 2025 12:16:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+сент. 06, 2025 12:16:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+сент. 06, 2025 12:16:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.09.06 00:16:33 INFO  no build target found for C:\GitHub\Scala\hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.06 00:16:34 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2025.09.06 00:16:34 WARN  no build target for: C:\GitHub\Scala\hello.scala
+2025.09.06 00:16:33 INFO  no build target found for C:\GitHub\Scala\hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.06 00:16:34 INFO  no build target found for C:\GitHub\Scala\hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.06 00:16:36 INFO  time: Connected to build server in 23s
+2025.09.06 00:16:36 INFO  Connected to Build server: scala v1.8.4
+2025.09.06 00:16:36 INFO  time: Imported build in 0.46s
+2025.09.06 00:16:48 INFO  compiling scala_81db504dab-94b1911048 (1 scala source)
+2025.09.06 00:16:54 INFO  time: compiled Scala_81db504dab-94b1911048 in 6.93s
+2025.09.06 00:18:02 INFO  time: indexed workspace in 1m25s
+2025.09.06 00:23:25 INFO  Shutting down server
+2025.09.06 00:23:25 INFO  shutting down Metals
+2025.09.06 00:23:26 INFO  Shut down connection with build server.
+2025.09.06 00:23:25 INFO  Exiting server
+2025.09.06 15:06:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\GitHub\Scala\.metals\lsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2025.09.06 15:06:54 INFO  logging to files C:\GitHub\Scala\.metals\metals.log
+2025.09.06 15:06:54 INFO  Started: Metals version 1.6.2 in folders 'C:\GitHub\Scala' for client Visual Studio Code 1.103.2.
