@@ -73,3 +73,435 @@ WARNING: Unmatched cancel notification for request id 22
 2025.09.06 15:09:14 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
 сент. 06, 2025 3:15:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+сент. 06, 2025 3:41:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+сент. 06, 2025 3:44:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+сент. 06, 2025 4:37:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+2025.09.06 16:37:34 INFO  time: compiled Scala_81db504dab-94b1911048 in 0.41s
+2025.09.06 16:37:36 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:37:36 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:37:36 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:37:36 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:37:36 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:38:40 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:38:40 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:38:41 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:38:41 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:38:40 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:38:41 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:38:43 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:39:47 INFO  BSP server: os.PathError$LastOnEmptyPath: empty path has no last segment
+2025.09.06 16:39:47 INFO  BSP server: 	at os.PathError$LastOnEmptyPath$.apply(Path.scala:269)
+2025.09.06 16:39:47 INFO  BSP server: 	at os.BasePathImpl.last$$anonfun$1(Path.scala:251)
+2025.09.06 16:39:47 INFO  BSP server: 	at scala.Option.getOrElse(Option.scala:201)
+2025.09.06 16:39:47 INFO  BSP server: 	at os.BasePathImpl.last(Path.scala:251)
+2025.09.06 16:39:47 INFO  BSP server: 	at os.BasePathImpl.last$(Path.scala:231)
+2025.09.06 16:39:47 INFO  BSP server: 	at os.RelPath.last(Path.scala:307)
+2025.09.06 16:39:47 INFO  BSP server: 	at scala.build.bsp.BloopSession.isScalaFile$1(BloopSession.scala:40)
+2025.09.06 16:39:47 INFO  BSP server: 	at scala.build.bsp.BloopSession.$anonfun$1(BloopSession.scala:42)
+2025.09.06 16:39:47 INFO  BSP server: 	at scala.build.bsp.BloopSession.registerWatchInputs$$anonfun$1$$anonfun$1(BloopSession.scala:48)
+2025.09.06 16:39:47 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+2025.09.06 16:39:47 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+2025.09.06 16:39:47 INFO  BSP server: 	at scala.build.Build$$anon$2.onNext(Build.scala:1279)
+2025.09.06 16:39:47 INFO  BSP server: 	at scala.build.Build$$anon$2.onNext(Build.scala:1278)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:58)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:36)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.runCallbacks(NioPathWatcher.java:462)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.handleEvent(NioPathWatcher.java:486)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.NioPathWatcher.access$300(NioPathWatcher.java:35)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:108)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:102)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.swoval.files.NioPathWatcherService$2.run(NioPathWatcherService.java:95)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2025.09.06 16:39:47 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:178)
+2025.09.06 16:39:48 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:39:48 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+2025.09.06 16:39:48 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:39:49 INFO  time: compiled Scala_81db504dab-94b1911048 in 22ms
+2025.09.06 16:39:48 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:39:49 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:39:49 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:39:50 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:39:51 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:52 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:52 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:52 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:40:52 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:52 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:52 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:40:53 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:55 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:55 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:56 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:57 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:57 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:57 INFO  Created report: Optional[file:///C:/GitHub/Scala/build.sbt]
+сент. 06, 2025 4:40:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+2025.09.06 16:40:57 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\GitHub\Scala\.metals\.reports\metals-full\2025-09-06\r_empty-definition_16-40-57-696.md")
+2025.09.06 16:40:58 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:40:58 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:58 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:40:58 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:41:01 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:01 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:02 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:02 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:41:02 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:41:02 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:02 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:41:10 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:10 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+2025.09.06 16:41:10 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:11 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:13 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:13 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:41:13 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:14 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:14 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:41:28 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:30 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:30 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:30 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:30 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:41:31 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:31 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:41:31 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:41:31 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:42:02 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:02 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+2025.09.06 16:42:02 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:02 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:02 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:03 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:03 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:05 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:05 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:05 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:06 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:07 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:07 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:07 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:42:07 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+сент. 06, 2025 4:42:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 172
+2025.09.06 16:42:07 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:42:07 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:08 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:08 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:42:12 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+сент. 06, 2025 4:42:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 182
+2025.09.06 16:42:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:18 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:42:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:18 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:42:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:18 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:42:47 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:57 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:57 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:42:59 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:08 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:10 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:10 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:12 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:57 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:57 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:43:57 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:58 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:58 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:43:59 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:43:59 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:00 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:00 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:01 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:01 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+сент. 06, 2025 4:44:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+2025.09.06 16:44:33 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:34 WARN  no build target for: C:\GitHub\Scala\build.sbt
+сент. 06, 2025 4:44:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 218
+2025.09.06 16:44:33 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:34 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:34 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:44:35 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:35 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:36 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:36 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:44:35 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:36 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:36 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:44:36 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:36 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:44:37 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:36 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+сент. 06, 2025 4:44:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 234
+2025.09.06 16:44:37 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:37 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:38 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:39 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:39 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:39 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:40 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:40 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+2025.09.06 16:44:39 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:54 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:54 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:44:55 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:45:25 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:45:26 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:45:25 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:45:26 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:45:27 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+2025.09.06 16:45:27 INFO  time: code lens generation in 1.39s
+2025.09.06 16:45:28 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:50 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:50 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:52 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:54 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:54 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:58 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:58 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:58 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:58 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:48:58 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+2025.09.06 16:48:59 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:00 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:02 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:02 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:52:02 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:02 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:03 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:03 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:52:03 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:03 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:03 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:12 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:14 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:14 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:14 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:16 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:16 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:52:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:16 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:16 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:52:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:16 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:16 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:52:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+сент. 06, 2025 4:52:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 304
+2025.09.06 16:52:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+сент. 06, 2025 4:52:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+2025.09.06 16:52:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:17 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:52:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+сент. 06, 2025 4:52:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 315
+2025.09.06 16:52:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:18 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:52:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:18 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:52:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:18 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:52:19 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:19 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:20 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:20 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:20 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:21 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:31 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:31 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+сент. 06, 2025 4:52:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 330
+2025.09.06 16:52:31 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:31 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:31 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:32 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:32 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:33 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:52:36 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:43 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:43 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:58:43 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:43 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:43 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:58:44 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:45 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+сент. 06, 2025 4:58:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 349
+2025.09.06 16:58:45 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:45 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:46 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:48 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:48 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:48 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:48 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:58:48 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:48 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:58:48 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:48 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:49 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:58:49 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:49 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:49 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+сент. 06, 2025 4:58:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 364
+2025.09.06 16:58:49 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:50 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:49 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:50 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 16:58:51 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:51 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 16:58:51 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 16:58:51 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:00:16 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:19 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:19 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:19 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:19 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:00:19 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:20 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 17:00:20 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:20 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:00:21 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:21 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:00:21 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:15 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:15 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+2025.09.06 17:02:15 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:16 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:16 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:18 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 17:02:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:18 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:02:20 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:20 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 17:02:20 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:21 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:21 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:02:21 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:02:21 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:21:14 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:15 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 17:21:15 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:16 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:15 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:21:16 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:16 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:17 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:21:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:17 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:18 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:21:18 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:19 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 17:21:19 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:19 WARN  Could not find semantic tokens for: file:///C:/GitHub/Scala/build.sbt
+2025.09.06 17:21:29 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:29 WARN  no build target for: C:\GitHub\Scala\build.sbt
+2025.09.06 17:21:29 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:29 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:29 INFO  no build target found for C:\GitHub\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:33 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:33 WARN  no build target for: C:\GitHub\Scala\src\hello.scala
+сент. 06, 2025 5:21:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 442
+2025.09.06 17:21:33 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:21:33 INFO  no build target found for C:\GitHub\Scala\src\hello.scala. Using presentation compiler with project's scala-library version: 3.7.2
+2025.09.06 17:24:29 INFO  Shutting down server
+2025.09.06 17:24:29 INFO  shutting down Metals
+2025.09.06 17:24:29 INFO  Shut down connection with build server.
+2025.09.06 17:24:29 INFO  Exiting server
+2025.09.07 12:54:46 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\GitHub\Scala\.metals\lsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2025.09.07 12:54:58 INFO  logging to files C:\GitHub\Scala\.metals\metals.log
+2025.09.07 12:54:58 INFO  Started: Metals version 1.6.2 in folders 'C:\GitHub\Scala' for client Visual Studio Code 1.103.2.
+2025.09.07 12:54:58 INFO  time: initialize in 0.29s
+2025.09.07 12:55:06 INFO  Attempting to connect to the build server...
+2025.09.07 12:55:06 INFO  Running BSP server List(C:\Users\antoh\AppData\Local\Coursier\cache\arc\https\github.com\scala\scala3\releases\download\3.7.2\scala3-3.7.2-x86_64-pc-win32.zip\scala3-3.7.2-x86_64-pc-win32\libexec\scala-cli.exe, --cli-default-scala-version, 3.7.2, --repository, file:///C:/Users/antoh/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.7.2/scala3-3.7.2-x86_64-pc-win32.zip/scala3-3.7.2-x86_64-pc-win32/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, C:\GitHub\Scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\GitHub\Scala\.scala-build\ide-launcher-options.json, --envs-file, C:\GitHub\Scala\.scala-build\ide-envs.json, C:\GitHub\Scala\hello.scala)
+2025.09.07 12:55:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\Scala\.metals\bsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.07 12:55:12 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2025.09.07 12:55:12 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2025.09.07 12:55:12 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2025.09.07 12:55:14 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2025.09.07 12:55:23 INFO  BSP server: Starting compilation server
+2025.09.07 12:55:46 INFO  BSP server: Error: java.nio.file.NoSuchFileException: C:\GitHub\Scala\hello.scala
+2025.09.07 12:55:46 INFO  BSP server: For more details, please see 'C:\GitHub\Scala\.scala-build\stacktraces\1757238946-12870801207784851070.log'
+2025.09.07 12:56:08 ERROR Timeout waiting for 'build/initialize' response
+2025.09.07 12:56:08 WARN  Retrying connection to the build server scala
+2025.09.07 12:56:08 INFO  Running BSP server List(C:\Users\antoh\AppData\Local\Coursier\cache\arc\https\github.com\scala\scala3\releases\download\3.7.2\scala3-3.7.2-x86_64-pc-win32.zip\scala3-3.7.2-x86_64-pc-win32\libexec\scala-cli.exe, --cli-default-scala-version, 3.7.2, --repository, file:///C:/Users/antoh/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.7.2/scala3-3.7.2-x86_64-pc-win32.zip/scala3-3.7.2-x86_64-pc-win32/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, C:\GitHub\Scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\GitHub\Scala\.scala-build\ide-launcher-options.json, --envs-file, C:\GitHub\Scala\.scala-build\ide-envs.json, C:\GitHub\Scala\hello.scala)
+2025.09.07 12:56:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\Scala\.metals\bsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.07 12:56:09 INFO  BSP server: Error: java.nio.file.NoSuchFileException: C:\GitHub\Scala\hello.scala
+2025.09.07 12:56:09 INFO  BSP server: For more details, please see 'C:\GitHub\Scala\.scala-build\stacktraces\1757238969-17710040592603350550.log'
+2025.09.07 12:57:08 ERROR Timeout waiting for 'build/initialize' response
+2025.09.07 12:57:08 WARN  Retrying connection to the build server scala
+2025.09.07 12:57:08 INFO  Running BSP server List(C:\Users\antoh\AppData\Local\Coursier\cache\arc\https\github.com\scala\scala3\releases\download\3.7.2\scala3-3.7.2-x86_64-pc-win32.zip\scala3-3.7.2-x86_64-pc-win32\libexec\scala-cli.exe, --cli-default-scala-version, 3.7.2, --repository, file:///C:/Users/antoh/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.7.2/scala3-3.7.2-x86_64-pc-win32.zip/scala3-3.7.2-x86_64-pc-win32/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, C:\GitHub\Scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\GitHub\Scala\.scala-build\ide-launcher-options.json, --envs-file, C:\GitHub\Scala\.scala-build\ide-envs.json, C:\GitHub\Scala\hello.scala)
+2025.09.07 12:57:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\Scala\.metals\bsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.07 12:57:09 INFO  BSP server: Error: java.nio.file.NoSuchFileException: C:\GitHub\Scala\hello.scala
+2025.09.07 12:57:09 INFO  BSP server: For more details, please see 'C:\GitHub\Scala\.scala-build\stacktraces\1757239029-11545143251062298213.log'
+2025.09.07 12:58:08 ERROR Timeout waiting for 'build/initialize' response
+2025.09.07 12:58:08 WARN  Retrying connection to the build server scala
+2025.09.07 12:58:08 INFO  Running BSP server List(C:\Users\antoh\AppData\Local\Coursier\cache\arc\https\github.com\scala\scala3\releases\download\3.7.2\scala3-3.7.2-x86_64-pc-win32.zip\scala3-3.7.2-x86_64-pc-win32\libexec\scala-cli.exe, --cli-default-scala-version, 3.7.2, --repository, file:///C:/Users/antoh/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.7.2/scala3-3.7.2-x86_64-pc-win32.zip/scala3-3.7.2-x86_64-pc-win32/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, C:\GitHub\Scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\GitHub\Scala\.scala-build\ide-launcher-options.json, --envs-file, C:\GitHub\Scala\.scala-build\ide-envs.json, C:\GitHub\Scala\hello.scala)
+2025.09.07 12:58:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\Scala\.metals\bsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.07 12:58:15 INFO  BSP server: Error: java.nio.file.NoSuchFileException: C:\GitHub\Scala\hello.scala
+2025.09.07 12:58:15 INFO  BSP server: For more details, please see 'C:\GitHub\Scala\.scala-build\stacktraces\1757239095-12812063184315566838.log'
+2025.09.07 12:59:08 ERROR Timeout waiting for 'build/initialize' response
+2025.09.07 12:59:08 WARN  Retrying connection to the build server scala
+2025.09.07 12:59:08 INFO  Running BSP server List(C:\Users\antoh\AppData\Local\Coursier\cache\arc\https\github.com\scala\scala3\releases\download\3.7.2\scala3-3.7.2-x86_64-pc-win32.zip\scala3-3.7.2-x86_64-pc-win32\libexec\scala-cli.exe, --cli-default-scala-version, 3.7.2, --repository, file:///C:/Users/antoh/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.7.2/scala3-3.7.2-x86_64-pc-win32.zip/scala3-3.7.2-x86_64-pc-win32/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, C:\GitHub\Scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\GitHub\Scala\.scala-build\ide-launcher-options.json, --envs-file, C:\GitHub\Scala\.scala-build\ide-envs.json, C:\GitHub\Scala\hello.scala)
+2025.09.07 12:59:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\Scala\.metals\bsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.07 12:59:10 INFO  BSP server: Error: java.nio.file.NoSuchFileException: C:\GitHub\Scala\hello.scala
+2025.09.07 12:59:10 INFO  BSP server: For more details, please see 'C:\GitHub\Scala\.scala-build\stacktraces\1757239149-11632277275713643759.log'
+2025.09.07 13:00:08 ERROR Timeout waiting for 'build/initialize' response
+2025.09.07 13:00:08 WARN  Retrying connection to the build server scala
+2025.09.07 13:00:08 INFO  Running BSP server List(C:\Users\antoh\AppData\Local\Coursier\cache\arc\https\github.com\scala\scala3\releases\download\3.7.2\scala3-3.7.2-x86_64-pc-win32.zip\scala3-3.7.2-x86_64-pc-win32\libexec\scala-cli.exe, --cli-default-scala-version, 3.7.2, --repository, file:///C:/Users/antoh/AppData/Local/Coursier/cache/arc/https/github.com/scala/scala3/releases/download/3.7.2/scala3-3.7.2-x86_64-pc-win32.zip/scala3-3.7.2-x86_64-pc-win32/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, C:\GitHub\Scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\GitHub\Scala\.scala-build\ide-launcher-options.json, --envs-file, C:\GitHub\Scala\.scala-build\ide-envs.json, C:\GitHub\Scala\hello.scala)
+2025.09.07 13:00:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\Scala\.metals\bsp.trace.json or C:\Users\antoh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.07 13:00:11 INFO  BSP server: Error: java.nio.file.NoSuchFileException: C:\GitHub\Scala\hello.scala
+2025.09.07 13:00:11 INFO  BSP server: For more details, please see 'C:\GitHub\Scala\.scala-build\stacktraces\1757239211-8275472065542410355.log'
+2025.09.07 13:01:08 ERROR Timeout waiting for 'build/initialize' response
+2025.09.07 13:01:08 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:787)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.07 13:21:49 INFO  logging to files 
